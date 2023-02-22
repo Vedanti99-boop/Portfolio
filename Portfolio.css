@@ -6,6 +6,10 @@ html {
   scroll-behavior: smooth;
 }
 
+h4 {
+  letter-spacing: 4px;
+}
+
 .center {
   padding-top: 20em;
   padding-bottom: 5%;
@@ -13,7 +17,6 @@ html {
 
 .bg-fade {
   background-color: rgba(0, 0, 0, 0.3);
-  /* margin-top: 5em; */
   color: white;
 }
 
@@ -69,6 +72,27 @@ html {
   color: black;
 }
 
+#root {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+#root {
+  padding: 5%;
+}
+
+#root .mar {
+  width: 100%;
+}
+
+#root .mar1 {
+  padding-top: 8%;
+  font-weight: 100;
+}
+
+.skill-img {
+  height: 15em;
+}
+
 .bg-education {
   background: url("education.jpg");
   background-size: cover;
@@ -96,15 +120,17 @@ html {
 }
 
 .hobby:hover {
-  /* background-color: rgba(64, 53, 47, 0.5); */
   transition: 1s;
-  /* box-shadow: white 5px 5px 5px 5px; */
   border-radius: 1em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .ft {
   font-weight: 100;
+}
+
+#projects .mar {
+  margin-top: 52%;
 }
 
 .bg-projects {
@@ -121,6 +147,16 @@ html {
 #projects h3 {
   border: 1px solid black;
   padding-bottom: 1%;
+}
+
+#skill .skills {
+  background: #d7d7e3;
+  height: 80%;
+  width: 100%;
+}
+
+.mar-4 {
+  margin-left: 28%;
 }
 
 .hobline {
@@ -159,4 +195,28 @@ html {
 
 .contact-me {
   background: #3c2a21;
+}
+
+#root {
+  height: 10%;
+}
+
+button {
+  background: none;
+  color: rgba(37, 41, 45, 0);
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: all 0.25s;
+  color: black;
+  border-radius: 1em;
+}
+
+button:hover {
+  border-color: black;
+  color: black;
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.677);
 }
